@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .button-container {
+            margin-bottom: 20px;
+        }
+        .camera-button {
+            background-color: #008CBA; /* Blue */
+        }
+        .camera-button:hover {
+            background-color: #007B9E;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome, {{ name }}</h1>
+    <div class="button-container">
+        <button onclick="window.location.href='/staff'">Staff Updates</button>
+        <button onclick="window.location.href='/parking_spaces_left'">Parking Spaces Left</button>
+        <button onclick="window.location.href='/fine'">Manual Fine Entry</button>
+        <button onclick="window.location.href='/start_auto_violation_checker'">Start Auto Violation Checker</button>
+    </div>
+    <h2>Live IP Camera Feed</h2>
+    <button class="camera-button" onclick="window.location.href='/view_ip_camera'">View IP Camera Feed</button>
+</body>
+</html>
