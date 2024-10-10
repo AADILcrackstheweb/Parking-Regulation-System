@@ -14,27 +14,47 @@ The College Parking Management System ultimately enhances the efficiency of park
 
 **HARDWARE REQUIREMENTS**
   •	Processor: Dual-core Intel i5 or Ryzen 5 or Apple M1 or equivalent (recommended: Quad-core Intel i5 or Ryzen 5 or higher)
+  
   •	Memory: 6 GB RAM (recommended: 8 GB or higher)
+  
   •	Storage: At least 1.5 GB of free disk space (for project files, MySQL database, Python virtual environment)
+  
   •	Network: Internet connection for authentication and open-source package installations
+  
   •	CCTV Camera: A collection of IP cameras using Wi-Fi to support parking regulations.
 
 **SOFTWARE REQUIREMENTS**
   •	Operating System: Any OS that supports Python and MySQL (Windows, macOS, Linux)
+  
   •	Mobile Application: IP-Camera app for testing purposes only.
+  
   •	Open-Source Software Stack:
+  
       o	Python: Version 3.10 or above
+      
       o	Flask: Flask 3.0.3 or above for web framework and routing
+      
       o	MySQL: MySQL 8.0.32 or above (MySQL Community Edition) for database management
+      
       o	MySQLdb: Python MySQL connector for database interaction
+      
       o	OpenCV: For IP camera feed integration and real-time violation detection
+      
       o	Requests: Python requests library for fetching IP camera streams
+      
       o	Werkzeug: For Flask-related utilities like session management and security
+      
       o	bcrypt: For hashing and securely storing passwords in the MySQL database
+
+      
       o	HTML/CSS/JavaScript: For frontend development and dynamic UI elements
+      
       o	Code Editor: Visual Studio Code / PyCharm / any other Python-supporting IDE
+      
   •	Additional Libraries:
+  
       o	imutils: For image processing and camera feed resizing
+      
       o	Subprocess: To run external Python scripts for automated violation checks and other tasks
 
 ![image](https://github.com/user-attachments/assets/f36642e2-e166-42e9-b7f6-033de5841104)
