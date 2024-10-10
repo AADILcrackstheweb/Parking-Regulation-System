@@ -13,6 +13,7 @@ The College Parking Management System ultimately enhances the efficiency of park
 **SYSTEM REQUIREMENTS**
 
 **HARDWARE REQUIREMENTS**
+
   •	Processor: Dual-core Intel i5 or Ryzen 5 or Apple M1 or equivalent (recommended: Quad-core Intel i5 or Ryzen 5 or higher)
   
   •	Memory: 6 GB RAM (recommended: 8 GB or higher)
@@ -24,6 +25,7 @@ The College Parking Management System ultimately enhances the efficiency of park
   •	CCTV Camera: A collection of IP cameras using Wi-Fi to support parking regulations.
 
 **SOFTWARE REQUIREMENTS**
+
   •	Operating System: Any OS that supports Python and MySQL (Windows, macOS, Linux)
   
   •	Mobile Application: IP-Camera app for testing purposes only.
